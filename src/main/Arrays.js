@@ -48,6 +48,7 @@ function updatePop(){
  * @param item a new value
  */
 function arrPush(item){
+    arr.push(item)
     // code here
 }
 
@@ -56,6 +57,7 @@ function arrPush(item){
  * TODO: pop a value from the arr array.
  */
 function arrPop(){
+   arr.pop()
     // code here
 }
 
@@ -64,6 +66,7 @@ function arrPop(){
  * TODO: return the length of arr
  */
 function arrLength(){
+    return arr.length;
     // code here
 }
 
